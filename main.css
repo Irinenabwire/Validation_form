@@ -1,0 +1,66 @@
+<html><head> 
+  <title>Registration form with validation</title> 
+ </head> 
+ <body bgcolor="3f99e"> 
+  <form action="" method="post"> 
+   <table boarder="2" width="450" height="400" align="center" cellpadding="10" bgcolor="Yellow"> 
+    <tbody>
+     <tr> 
+      <td bgcolor="black" colspan="2"> <p style="text_align:center; font_size:200%;color:white;">Registration form</p> </td> 
+     </tr> 
+     <tr> 
+      <td align="right">Name:</td> 
+      <td><input type="text" name="sname"></td> 
+     </tr> 
+     <tr> 
+      <td align="right">Father's Name:</td> 
+      <td><input type="text" name="sname"></td> 
+     </tr> 
+     <tr> 
+      <td align="right">address:</td> 
+      <td><input type="text" name="sname"></td> 
+     </tr>
+     <tr> 
+      <td align="right">Sex:</td> 
+      <td> <input type="radio" name="Sex" value="Male">Male <input type="radio" name="Sex" value="Female">Female </td> 
+     </tr> 
+     <tr> 
+      <td align="right">City:</td> 
+      <td> <select name="City"> <option value="-1" selected="">select...</option> <option value="Nairobi" selected="">Nairobi</option> <option value="Mombasa" selected="">Mombasa</option> <option value="Kisumu" selected="">Kisumu</option> <option value="Nakuru" selected="">Nakuru</option> <option value="-1" selected="">select</option> </select></td> 
+     </tr> 
+     <tr> 
+      <td align="right">Course:</td> 
+      <td> <select name="Course"> <option value="-1" selected="">select...</option> <option value="MBA" selected="">MBA</option> <option value="MCA" selected="">MCA</option> <option value="MSCIT" selected="">MSCIT</option> <option value="BSCIT" selected="">BSCIT</option> <option value="BCA" selected="">BCA</option> <option value="-1" selected="">select</option> </select></td> 
+     </tr> 
+     <tr> 
+      <td align="right">District:</td> 
+      <td> <select name="District"> <option value="-1" selected="">select...</option> <option value="Nairobi district" selected="">Nairobi district</option> <option value="Mombasa district" selected="">Mombasa district</option> <option value="Kisumu district" selected="">Kisumu district</option> <option value="Nakuru district" selected="">Nakuru district</option> <option value="-1" selected="">select</option> </select></td> 
+     </tr> 
+     <tr> 
+      <td align="right">State:</td> 
+      <td> <select name="State"> <option value="-1" selected="">select...</option> <option value="Kenya" selected="">Kenya</option> <option value="Uganda" selected="">Uganda</option> <option value="Tanzania" selected="">Tanzania</option> <option value="Rwanda" selected="">Rwanda</option> <option value="Burundi" selected="">Burundi</option> <option value="-1" selected="">select</option> </select></td> 
+     </tr> 
+     <tr> 
+      <td align="right">PinCode:</td> 
+      <td><input type="text" name="pincode"></td> 
+     </tr> 
+     <tr> 
+      <td align="right">Email Id:</td> 
+      <td><input type="text" name="email"></td> 
+     </tr> 
+     <tr> 
+      <td align="right">D.O.B:</td> 
+      <td><input type="text" name="dob"></td> 
+     </tr> 
+     <tr> 
+      <td align="right">Mobile No:</td> 
+      <td><input type="text" name="mobname"></td> 
+     </tr> 
+     <tr> 
+      <td bgcolor="black" colspan="7"> <p style=" font_size:20;color:white;"> *Do you agree to our terms and conditions?<br> <input type="Checkbox" id="myCheckbox" name="test" required=""> I agree <input type="submit" value="submit Form"> </p> </td> 
+     </tr> 
+    </tbody>
+   </table>
+  </form>
+ 
+</body></html>
